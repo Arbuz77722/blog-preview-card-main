@@ -77,9 +77,8 @@ h1 {
 }
 
 @media (max-width: 375px) {
-  .blog-card {
-    padding: 1.5rem;
-    max-width: 28rem;
+  .container {
+    height: 100vh;
   }
 
   h1 {
