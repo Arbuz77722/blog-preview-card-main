@@ -76,7 +76,7 @@ h1 {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 375px) {
   .blog-card {
     padding: 1.5rem;
     max-width: 28rem;
