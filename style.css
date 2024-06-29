@@ -76,9 +76,12 @@ h1 {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 500px) {
   .container {
-    width:23rem;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
+
