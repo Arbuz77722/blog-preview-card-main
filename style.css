@@ -75,11 +75,3 @@ h1 {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
-@media (min-width: 768px) {
-  .container {
-    margin:1rem;
-    height: 100vh;
-    padding: 0;
-  }
-}
