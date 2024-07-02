@@ -5,8 +5,8 @@
 }
 html {
   font-size: 62.5%;
-  height: 100%;
   overflow: hidden;
+  height: 100%;
 }
 
 body {
@@ -20,8 +20,8 @@ h1 {
   font-weight: 800;
 }
 .container {
-  width: 35.5rem;
-  margin: 20rem auto;
+  max-width: 35.5rem;
+  margin: 10rem auto;
   height: 100%;
 }
 
@@ -79,13 +79,15 @@ h1 {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
 @media (max-width: 600px) {
   .container {
-    max-width: 90%; /* Adjust to your preference */
+    max-width: 90%;
+    min-height: 80vh;
     margin: 2rem auto;
-    padding: 2rem 1rem; /* Adjust padding for smaller screens */
+    padding: 2rem 1rem;
   }
   html {
     font-size: 60%;
-}
+  }
 }
